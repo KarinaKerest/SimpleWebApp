@@ -35,7 +35,7 @@ input {
     padding: 15px;
     border: 3px solid #2574af;
     text-shadow: 0 0 black;
-    margin-bottom: 1cm; 
+    margin-bottom: 1cm;
     display: inline-block;
     white-space: nowrap;
 }
@@ -52,5 +52,20 @@ button {
 }
 
 button:hover {
-    background: #218
+    background: #218838;
+}
+
+.search-result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.search-result a {
+    font-weight: bold;
+    color: #2574af;
+    text-decoration: none;
+}
+
+.search-result p {
+    margin: 5px 0;
 }
